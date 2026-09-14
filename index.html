@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>FGC Studios | Tecnologia, Jogos e Sistemas</title>
+    <title>FGC Studios | Tecnologia, Criatividade e Inovação</title>
 
-    <meta name="description" content="FGC Studios - Desenvolvimento de jogos, aplicativos, sistemas e soluções digitais.">
+    <meta
+        name="description"
+        content="FGC Studios - Desenvolvimento de jogos, aplicativos, sistemas e soluções digitais."
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,21 +24,35 @@
         <div class="container header-content">
 
             <a href="#inicio" class="logo">
-                <span>FGC</span>
-                <small>STUDIOS</small>
+                <div class="logo-fgc">
+                    FGC
+                </div>
+
+                <div class="logo-studios">
+                    STUDIOS
+                </div>
             </a>
 
-            <nav class="nav" id="nav">
+            <nav class="navigation" id="navigation">
 
-                <a href="#inicio">Início</a>
+                <a href="#inicio" class="active">Início</a>
                 <a href="#projetos">Projetos</a>
-                <a href="#sobre">Sobre</a>
+                <a href="#sobre">Sobre nós</a>
                 <a href="#servicos">Serviços</a>
                 <a href="#contato">Contato</a>
 
             </nav>
 
-            <button class="menu-button" id="menuButton">
+            <div class="socials">
+
+                <a href="#" aria-label="Discord">◉</a>
+                <a href="#" aria-label="YouTube">▶</a>
+                <a href="#" aria-label="Instagram">◎</a>
+                <a href="#" aria-label="LinkedIn">in</a>
+
+            </div>
+
+            <button class="mobile-menu" id="mobileMenu">
                 ☰
             </button>
 
@@ -49,68 +67,154 @@
 
         <section class="hero" id="inicio">
 
-            <div class="hero-background"></div>
+            <div class="hero-image"></div>
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-decoration left-decoration"></div>
+            <div class="hero-decoration right-decoration"></div>
 
             <div class="container hero-content">
 
                 <div class="hero-text">
 
-                    <div class="hero-tag">
+                    <div class="welcome">
+
                         <span></span>
-                        FGC STUDIOS
+
+                        BEM-VINDO À FGC STUDIOS
+
                     </div>
 
                     <h1>
-                        Criando o futuro
-                        <strong>digital.</strong>
+                        FGC
+                        <strong>STUDIOS</strong>
                     </h1>
+
+                    <h2>
+                        Tecnologia.
+                        <span>Criatividade.</span>
+                        <br>
+                        Inovação.
+                    </h2>
 
                     <p>
                         Desenvolvemos jogos, aplicativos, sistemas e
-                        experiências digitais criadas para transformar ideias
-                        em realidade.
+                        soluções digitais que transformam ideias em
+                        experiências reais.
                     </p>
 
                     <div class="hero-buttons">
 
-                        <a href="#projetos" class="button primary">
+                        <a href="#projetos" class="btn-primary">
+
+                            <span>→</span>
+
                             Conheça nossos projetos
+
                         </a>
 
-                        <a href="#sobre" class="button secondary">
+                        <a href="#sobre" class="btn-link">
+
                             Sobre a FGC
+
+                            <span>→</span>
+
                         </a>
 
                     </div>
 
                 </div>
 
+            </div>
 
-                <div class="hero-visual">
+        </section>
 
-                    <div class="circle circle-1"></div>
-                    <div class="circle circle-2"></div>
 
-                    <div class="hero-card">
+        <!-- ================= CATEGORIAS ================= -->
 
-                        <div class="card-top">
-                            <span class="status"></span>
-                            FGC STUDIOS
-                        </div>
+        <section class="categories">
 
-                        <div class="card-logo">
-                            FGC
-                        </div>
+            <div class="container categories-grid">
 
-                        <div class="card-lines">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
+                <a href="#projetos" class="category">
 
+                    <div class="category-icon">
+                        🎮
                     </div>
 
-                </div>
+                    <div>
+                        <h3>Jogos</h3>
+
+                        <p>
+                            Experiências que divertem
+                            e conectam pessoas.
+                        </p>
+                    </div>
+
+                    <span class="category-arrow">→</span>
+
+                </a>
+
+
+                <a href="#projetos" class="category">
+
+                    <div class="category-icon">
+                        📱
+                    </div>
+
+                    <div>
+                        <h3>Aplicativos</h3>
+
+                        <p>
+                            Soluções práticas para
+                            o seu dia a dia.
+                        </p>
+                    </div>
+
+                    <span class="category-arrow">→</span>
+
+                </a>
+
+
+                <a href="#projetos" class="category">
+
+                    <div class="category-icon">
+                        💻
+                    </div>
+
+                    <div>
+                        <h3>Sistemas</h3>
+
+                        <p>
+                            Automação e eficiência
+                            para o seu negócio.
+                        </p>
+                    </div>
+
+                    <span class="category-arrow">→</span>
+
+                </a>
+
+
+                <a href="#projetos" class="category">
+
+                    <div class="category-icon">
+                        🌐
+                    </div>
+
+                    <div>
+                        <h3>Web</h3>
+
+                        <p>
+                            Sites e plataformas modernas,
+                            rápidas e responsivas.
+                        </p>
+                    </div>
+
+                    <span class="category-arrow">→</span>
+
+                </a>
 
             </div>
 
@@ -123,18 +227,29 @@
 
             <div class="container">
 
-                <div class="section-title">
+                <div class="section-header">
 
-                    <span>PORTFÓLIO</span>
+                    <div>
 
-                    <h2>
-                        Nossos projetos
-                    </h2>
+                        <div class="section-label">
+                            <span></span>
+                            PROJETOS
+                        </div>
 
-                    <p>
-                        Algumas das ideias e projetos desenvolvidos pela
-                        FGC Studios.
-                    </p>
+                        <h2>
+                            Nossos <strong>projetos</strong>
+                        </h2>
+
+                        <p>
+                            Confira alguns dos projetos desenvolvidos
+                            pela FGC Studios.
+                        </p>
+
+                    </div>
+
+                    <a href="#" class="view-all">
+                        Ver todos os projetos →
+                    </a>
 
                 </div>
 
@@ -142,26 +257,32 @@
                 <div class="projects-grid">
 
 
+                    <!-- DRIVER FAST -->
+
                     <article class="project-card">
 
-                        <div class="project-image project-game">
+                        <div class="project-image">
 
-                            <div class="project-overlay">
-                                🎮
+                            <img
+                                src="assets/driver-fast.jpg"
+                                alt="Driver Fast"
+                            >
+
+                            <div class="image-category">
+                                JOGO
                             </div>
 
                         </div>
 
                         <div class="project-info">
 
-                            <span>GAME</span>
-
                             <h3>
-                                Jogos
+                                Driver Fast
                             </h3>
 
                             <p>
-                                Jogos digitais desenvolvidos pela FGC Studios.
+                                Um jogo de entrega top-down
+                                com muito desafio e diversão.
                             </p>
 
                             <a href="#">
@@ -173,27 +294,32 @@
                     </article>
 
 
+                    <!-- PDV FGC -->
+
                     <article class="project-card">
 
-                        <div class="project-image project-app">
+                        <div class="project-image">
 
-                            <div class="project-overlay">
-                                📱
+                            <img
+                                src="assets/pdv-fgc.jpg"
+                                alt="PDV FGC"
+                            >
+
+                            <div class="image-category">
+                                SISTEMA
                             </div>
 
                         </div>
 
                         <div class="project-info">
 
-                            <span>APP</span>
-
                             <h3>
-                                Aplicativos
+                                PDV FGC
                             </h3>
 
                             <p>
-                                Aplicativos criados para facilitar tarefas
-                                e conectar pessoas.
+                                Sistema de vendas completo,
+                                rápido e fácil de usar.
                             </p>
 
                             <a href="#">
@@ -205,27 +331,69 @@
                     </article>
 
 
+                    <!-- SITPASS -->
+
                     <article class="project-card">
 
-                        <div class="project-image project-system">
+                        <div class="project-image">
 
-                            <div class="project-overlay">
-                                💻
+                            <img
+                                src="assets/fgc-sitpass.jpg"
+                                alt="FGC Sitpass"
+                            >
+
+                            <div class="image-category">
+                                APP
                             </div>
 
                         </div>
 
                         <div class="project-info">
 
-                            <span>SISTEMAS</span>
-
                             <h3>
-                                Sistemas
+                                FGC Sitpass
                             </h3>
 
                             <p>
-                                Soluções personalizadas para empresas e
-                                negócios.
+                                Aplicativo para agendamento
+                                de vendas de Sitpass.
+                            </p>
+
+                            <a href="#">
+                                Ver projeto →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- GUERRA DE HACKERS -->
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+
+                            <img
+                                src="assets/guerra-hackers.jpg"
+                                alt="Guerra de Hackers"
+                            >
+
+                            <div class="image-category">
+                                JOGO
+                            </div>
+
+                        </div>
+
+                        <div class="project-info">
+
+                            <h3>
+                                Guerra de Hackers
+                            </h3>
+
+                            <p>
+                                Jogo 2D top-down com temática
+                                hacker e muita ação.
                             </p>
 
                             <a href="#">
@@ -248,47 +416,96 @@
 
         <section class="about section" id="sobre">
 
-            <div class="container about-content">
+            <div class="container about-container">
 
-                <div class="about-visual">
+                <div class="about-image">
 
-                    <div class="about-box">
+                    <div class="about-logo-box">
 
-                        <div class="about-logo">
+                        <span class="about-fgc">
                             FGC
-                        </div>
+                        </span>
 
-                        <span>STUDIOS</span>
+                        <span class="about-studios">
+                            STUDIOS
+                        </span>
 
                     </div>
 
                 </div>
 
 
-                <div class="about-text">
+                <div class="about-content">
 
-                    <span class="section-label">
+                    <div class="section-label">
+                        <span></span>
                         SOBRE NÓS
-                    </span>
+                    </div>
 
                     <h2>
                         Ideias que se transformam
-                        em tecnologia.
+                        em <strong>tecnologia.</strong>
                     </h2>
 
                     <p>
-                        A FGC Studios é uma empresa focada na criação de
-                        soluções digitais, jogos, aplicativos e sistemas.
+                        A FGC Studios é uma empresa focada na criação
+                        de soluções digitais, jogos, aplicativos e
+                        sistemas.
                     </p>
 
                     <p>
-                        Nosso objetivo é transformar ideias em produtos
-                        digitais funcionais, modernos e acessíveis.
+                        Nosso objetivo é transformar ideias em
+                        produtos digitais funcionais, modernos
+                        e acessíveis.
                     </p>
 
-                    <a href="#contato" class="button primary">
-                        Fale conosco
+                    <a href="#" class="btn-primary small">
+                        Saiba mais sobre nós →
                     </a>
+
+                </div>
+
+
+                <div class="about-features">
+
+                    <div>
+                        <span>✧</span>
+
+                        <div>
+                            <strong>Qualidade</strong>
+                            <small>em cada detalhe</small>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <span>◷</span>
+
+                        <div>
+                            <strong>Compromisso</strong>
+                            <small>com prazos</small>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <span>♢</span>
+
+                        <div>
+                            <strong>Inovação</strong>
+                            <small>em cada projeto</small>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <span>♡</span>
+
+                        <div>
+                            <strong>Suporte</strong>
+                            <small>sempre ao seu lado</small>
+                        </div>
+                    </div>
 
                 </div>
 
@@ -303,13 +520,25 @@
 
             <div class="container">
 
-                <div class="section-title">
+                <div class="section-header">
 
-                    <span>O QUE FAZEMOS</span>
+                    <div>
 
-                    <h2>
-                        Nossos serviços
-                    </h2>
+                        <div class="section-label">
+                            <span></span>
+                            SERVIÇOS
+                        </div>
+
+                        <h2>
+                            O que <strong>fazemos</strong>
+                        </h2>
+
+                        <p>
+                            Oferecemos soluções completas
+                            para o seu projeto.
+                        </p>
+
+                    </div>
 
                 </div>
 
@@ -328,8 +557,8 @@
                         </h3>
 
                         <p>
-                            Criamos jogos 2D e experiências interativas
-                            para diferentes plataformas.
+                            Criamos jogos 2D e experiências
+                            interativas para diferentes plataformas.
                         </p>
 
                     </div>
@@ -346,8 +575,8 @@
                         </h3>
 
                         <p>
-                            Desenvolvimento de aplicativos para transformar
-                            ideias em ferramentas úteis.
+                            Desenvolvimento de aplicativos para
+                            transformar ideias em ferramentas úteis.
                         </p>
 
                     </div>
@@ -364,7 +593,7 @@
                         </h3>
 
                         <p>
-                            Sistemas personalizados para empresas,
+                            Soluções personalizadas para empresas,
                             lojas e projetos.
                         </p>
 
@@ -382,8 +611,8 @@
                         </h3>
 
                         <p>
-                            Sites e plataformas web modernas, rápidas e
-                            responsivas.
+                            Sites e plataformas web modernas,
+                            rápidas e responsivas.
                         </p>
 
                     </div>
@@ -398,35 +627,45 @@
 
         <!-- ================= CONTATO ================= -->
 
-        <section class="contact section" id="contato">
+        <section class="contact" id="contato">
 
-            <div class="container contact-box">
+            <div class="contact-decoration"></div>
 
-                <div>
+            <div class="container contact-container">
 
-                    <span class="section-label">
+                <div class="contact-icon">
+                    ✉
+                </div>
+
+                <div class="contact-text">
+
+                    <div class="section-label">
                         ENTRE EM CONTATO
-                    </span>
+                    </div>
 
                     <h2>
                         Tem uma ideia?
+                        <strong>Vamos conversar!</strong>
                     </h2>
 
                     <p>
-                        Vamos transformar sua ideia em um projeto.
+                        Estamos prontos para transformar
+                        seu projeto em realidade.
                     </p>
 
                 </div>
 
+                <a href="mailto:nissinnone2@gmail.com.com"
+                   class="btn-primary">
 
-                <a href="mailto:nissinnone2@gmail.com"
-                   class="button primary">
-                    Fale com a FGC Studios
+                    Fale conosco →
+
                 </a>
 
             </div>
 
         </section>
+
 
     </main>
 
@@ -435,24 +674,39 @@
 
     <footer class="footer">
 
-        <div class="container footer-content">
+        <div class="container footer-container">
 
-            <div class="footer-logo">
+            <a href="#inicio" class="footer-logo">
 
                 <strong>FGC</strong>
+
                 <span>STUDIOS</span>
 
-            </div>
+            </a>
+
 
             <p>
                 © 2026 FGC Studios. Todos os direitos reservados.
             </p>
 
-            <div class="footer-links">
+
+            <nav>
 
                 <a href="#inicio">Início</a>
                 <a href="#projetos">Projetos</a>
+                <a href="#sobre">Sobre nós</a>
+                <a href="#servicos">Serviços</a>
                 <a href="#contato">Contato</a>
+
+            </nav>
+
+
+            <div class="footer-socials">
+
+                <a href="#">◉</a>
+                <a href="#">▶</a>
+                <a href="#">◎</a>
+                <a href="#">in</a>
 
             </div>
 
@@ -464,4 +718,5 @@
     <script src="script.js"></script>
 
 </body>
+
 </html>
